@@ -1,0 +1,39 @@
+body {
+    background-image: url('image\V-115283-4B853216.jpg'); /* 确保路径正确 */
+    background-size: 30%;
+    
+}
+
+
+/* 设置html的高度为100% */
+html{  
+    height: 100%;  
+    /* 设置html的外边距为0 */
+    margin: 0;  
+    /* 设置html的字体为Arial或sans-serif */
+    font-family: Arial, sans-serif;  
+    /* 设置html的布局为flex布局 */
+    display: flex;  
+    /* 设置flex布局的子元素在主轴上的对齐方式为居中 */
+    justify-content: center;  
+    /* 设置flex布局的子元素在交叉轴上的对齐方式为居中 */
+    align-items: center;  
+}
+
+.container {  
+    /* 设置文本居中 */
+    text-align: center;  
+    /* 设置文本颜色为白色 */
+    color: white;  
+    /* 设置背景颜色为半透明黑色 */
+    background-color: rgba(0, 0, 0, 0.5);  
+    /* 设置内边距为20px */
+    padding: 20px;  
+    /* 设置边框圆角为10px */
+    border-radius: 10px;  
+}  
+
+.link-text {
+    color: black; /* 改变字体颜色 */
+    text-decoration: none; /* 隐藏下划线 */
+}
